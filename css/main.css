@@ -1,0 +1,209 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #545454;
+	width: 80%;
+	margin: 0 auto;
+	background-color: #F4F4F4;
+}
+
+.logo h1, .left h2, .right h2, .last-section, .contact p {
+	font-family: 'Cookie', cursive;
+}
+
+.logo i, .left h2, .right h2, .picture p, .last-section, .contact p, span {
+	color: #D77789;
+}
+
+/* -------------------------------------------------------------
+						Top
+--------------------------------------------------------------*/
+.top {
+	height: 80px;
+}
+
+.logo {
+	margin-top: 25px;
+
+}
+
+.fa {
+	margin: 3px;
+	padding: 2px;
+}
+
+.logo h1 {
+	display: inline-block;
+}
+
+.navigation {
+	list-style: none;
+	float: right;
+	margin: -20px 0 0 100px;
+	
+}
+
+.navigation li {
+	display: inline-block;
+	margin: 0 20px;
+}
+
+/*----------- Line -----------*/
+
+hr {
+	border: 1px solid #BCBCBC;
+}
+
+section {
+	margin-top: 50px;
+}
+
+.first-section {
+	text-align: center;
+}
+
+.first-section h2 {
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+.first-section p {
+	font-size: 14px;
+	line-height: 10px;
+	margin: 20px;
+}
+
+/*----------- second section -----------*/
+
+.second-section img {
+	width: 100%;
+	margin: 50px 0;
+}
+
+/*-----------  third Section -----------*/
+
+.left {
+	width: 50%;
+	display: inline-block;
+}
+
+.right {
+	width: 50%;
+	display: inline-block;
+	float: right;
+}
+
+.left h2, .right h2 {
+	text-align: center;
+	font-size: 27px;
+}
+
+.left p, .right p {
+	font-size: 14px;
+	line-height: 20px;
+	margin: 20px 0 50px;
+}
+
+/*-----------  pictures -----------*/
+
+.pictures {
+	width: 90%;
+	margin: auto;
+}
+
+.picture {
+	width: 18%;
+	display: inline-block;
+	float: left;
+	margin: 0 7px 40px;
+	background-color: white;
+	border-radius: 10px
+}
+
+
+.picture img {
+	width: 100%;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.picture h2 {
+	font-size: 15px;
+}
+
+.picture p {
+	font-size: 10px;
+}
+
+/*-----------  last section -----------*/
+
+.last-section {
+	font-size: 20px;
+	text-align: center;
+	margin: 30px;
+
+}
+
+/*-----------  Footer -----------*/
+
+footer {
+	background-color: #2D2D2D;
+
+}
+
+.contact {
+	width: 50%;
+	font-size: 25px;
+	margin: 30px 10px;
+	display: inline-block;
+}
+
+.contact input {
+	display: block;
+	width: 350px;
+	background-color: #F4F4F4;
+	margin-top: 10px;
+	height: 20px;
+	border: none;
+}
+
+
+input .contact:last-child {
+	height: 40px;
+}
+
+
+.contact button {
+	font-size: 13px;
+	background-color: #2D2D2D;
+	text-shadow: none;
+	color: white;
+	border: none;
+	padding: 1px;
+}
+
+
+
+/* ------ social media ------*/
+.sns {
+	width: 50%;
+	display: inline-block;
+	float: right;
+	position: relative;
+	bottom: 120px;
+    left: 300px;
+}
+
+.sns a {
+	background-color: #D77789;
+	color: #2D2D2D;
+    border-radius: 55%;
+    padding: 5px;
+    margin: 5px;
+}
+
